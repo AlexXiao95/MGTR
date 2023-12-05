@@ -1,1 +1,4 @@
-# MTGR
+# MGTR: Multi-Granular Transformer for Motion Prediction with LiDAR
+
+##Abstract
+Motion prediction has been an essential component of autonomous driving systems since it handles highly uncertain and complex scenarios involving moving agents of different types. In this paper, we propose a Multi-Granular TRansformer (MGTR) framework, an encoder-decoder network that exploits context features in different granularities for different kinds of traffic agents. To further enhance MGTR's capabilities, we leverage LiDAR point cloud data by incorporating LiDAR semantic features from an off-the-shelf LiDAR feature extractor. We evaluate MGTR on Waymo Open Dataset motion prediction benchmark and show that the proposed method achieved state-of-the-art performance, ranking 1st on its [leaderboard](https://waymo.com/open/challenges/2023/motion-prediction/).
